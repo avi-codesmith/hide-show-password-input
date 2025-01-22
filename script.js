@@ -1,4 +1,4 @@
-// "use strict";
+"use strict";
 
 const wrapper = document.querySelector(".wrapper");
 const eye = document.querySelector(".hide");
