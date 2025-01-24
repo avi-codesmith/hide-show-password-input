@@ -1,5 +1,4 @@
 # About Show-hide input
 ## This is a show-hide input button with eye button, in HTML CSS and JS.
 ## [Click to visit](https://hide-show-password-input.netlify.app/)
-
-https://github.com/user-attachments/assets/c178ac85-1af6-42de-a250-69015a76d211
+![gifpassword](https://github.com/user-attachments/assets/3d9cace1-8168-47d0-b78b-50dbcf5d1057)
