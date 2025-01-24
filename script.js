@@ -9,12 +9,16 @@ wrapper.addEventListener("click", () => {
 });
 
 eye.addEventListener("click", () => {
-  if (eye.src.includes("view.png")) {
+  if (eye.src.includes("hide.png")) {
     input.type = "password";
-    eye.src = "hide.png";
-  } else if (eye.src.includes("hide.png")) {
+    eye.src = "view.png";
+    eye.removeAttribute("title");
+    eye.setAttribute("title", "Show Password");
+  } else if (eye.src.includes("view.png")) {
     input.type = "password";
     input.type = "text";
-    eye.src = "view.png";
+    eye.src = "hide.png";
+    eye.removeAttribute("title");
+    eye.setAttribute("title", "Hide Password");
   }
 });
